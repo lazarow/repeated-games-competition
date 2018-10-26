@@ -58,5 +58,6 @@ Komenda `npm install` instaluje niezbędne biblioteki.
 
 Komenda `node index.js` uruchamia zawody.
 
-W repozytorium znajduje się implementacja losowego gracza, który jest dobrym punktem startu.
+W repozytorium znajduje się implementacja losowego gracza, który jest dobrym punktem startu, aczkolwiek przypominam, że 
+losowość jest zakazana.
 
