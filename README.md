@@ -30,6 +30,15 @@ Na starcie pojedynku wirtualni gracze otrzymają informację czy grają jako wie
 ### Tworzenie gracza
 
 UWAGA! Gracz musi być **deterministyczny**! Co oznacza, że w procesie decyzyjnym nie może korzystać z losowości!
+Jak również własne implmentacje pseudolosowości są **zakazane**! Przykładowo:
+```
+x := 342199
+loop:
+	x *= x
+	użyj x
+goto loop
+```
+jest już złamaniem tej zasady.
 
 By utworzyć gracza należy stworzyć obiekt zawierający 3 metody:
 ```javascript
