@@ -25,7 +25,7 @@ Grę wygrywa kolumna.
 | **1** | (6,0) | (3,3) | (0,6) |
 | **2** | (0,6) | (6,0) | (3,3) |
 
-Na starcie pojedynku wirtualni gracze otrzymają informację czy grają jako wiersz czy kolumna.
+Na starcie pojedynku wirtualni gracze otrzymają informację czy grają jako wiersz czy kolumna. Wartości wypłat macierzy nie ulegają zmianie w kolejnych powtórzeniach oraz meczach.
 
 ### Tworzenie gracza
 
